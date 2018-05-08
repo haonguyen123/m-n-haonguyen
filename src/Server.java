@@ -14,7 +14,7 @@ public class Server {
     public static void main(String[] args) throws RemoteException {
         try {
             Registry reg = LocateRegistry.createRegistry(1099);
-//            System.out.println(reg);
+            System.out.println(reg);
             LoginImpl log = new LoginImpl();
             ProfileImpl prof = new ProfileImpl();
             reg.rebind("login", log);
