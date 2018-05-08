@@ -17,11 +17,5 @@ public class Connection {
         Class.forName("com.mysql.jdbc.Driver");
         conn = DriverManager.getConnection("jdbc:mysql://localhost/quanlynhanvien?allowMultiQueries=true&rewriteBatchedStatements=true&useUnicode=yes&characterEncoding=UTF-8", "haonguyen", "1234");
     }
-    public static void main(String[] args) {
-        try {
-            openConnection();
-            System.out.println("Succesfull");
-        } catch (Exception e) {
-        }
-    }
+   
 }

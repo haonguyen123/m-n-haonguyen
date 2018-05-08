@@ -218,10 +218,5 @@ public class ProfileImpl extends UnicastRemoteObject implements Profile{
         }
         
     }
-    public static void main(String[] args) {
-//        MD5Hash md5 = new MD5Hash();
-//        String a = md5.md5("dsdsd");
-//        System.out.println(a);
-        
-    }
+
 }
