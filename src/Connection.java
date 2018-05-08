@@ -15,7 +15,7 @@ public class Connection {
     public static java.sql.Connection conn;
     public static void openConnection() throws Exception{
         Class.forName("com.mysql.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost/quanlynhanvien?allowMultiQueries=true&rewriteBatchedStatements=true&useUnicode=yes&characterEncoding=UTF-8", "haonguyen", "1234");
+        conn = DriverManager.getConnection("jdbc:mysql://35.185.36.4/quanlynhanvien?allowMultiQueries=true&rewriteBatchedStatements=true&useUnicode=yes&characterEncoding=UTF-8", "root", "1234");
     }
    
 }
